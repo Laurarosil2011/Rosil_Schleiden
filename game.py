@@ -3,16 +3,16 @@ import turtle
 # Setup screen
 screen = turtle.Screen()
 screen.title("Shape Generator")
-screen.bgcolor("black")
+screen.bgcolor("black") # This is for the background color
 
 # Create turtle object
-pen = turtle.Turtle()
-pen.speed(5)
+pen = turtle.Turtle() 
+pen.speed(5) 
 pen.pensize(2)
 
 # Shape drawer function
 def draw_shape(sides, size):
-    angle = 360 / sides
+    angle = 360 / sides    # Internal angle of a regular polygon with a given number of sides
     for _ in range(sides):
         pen.forward(size)
         pen.right(angle)
@@ -34,11 +34,11 @@ while True:
     shape = shape.lower()
     if shape in shapes:
         pen.clear()  # Clear previous shape
-        pen.color("blue")
+        pen.color("blue") 
         draw_shape(shapes[shape], 100)
     else:
         screen.textinput("Error", "Invalid shape. Press OK to retry.")
-
+ 
 # Finish
-pen.hideturtle()
+pen.hideturtle() # To make the turtle object invisible
 screen.mainloop()
