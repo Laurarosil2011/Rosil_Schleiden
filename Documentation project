@@ -1,9 +1,11 @@
 1. Project Title
 My project title is 'Shape generator'.
 2. What is the purpose of your project? explain your project.
-The purpose of my project is to provide a fun and an interactive way for users to generate shapes. My shape generator is comprehensive and offers a range of shapes, making it versatile.
-This is also useful for users who needs to quickly generate shapes for various purposes, and it also shows my programming skills and creativity in making this. It is to design and develop
-a user-friendly project to generate geometric shapes, using simple text-based inputs. Everyone can effortlessly run the program for their personal uses.
+The Shape Generator Program is a software application designed to generate various geometric shapes based on user input, providing an interactive and user-friendly interface for creating
+and visualizing shapes. The program supplies to students, educators, and professionals in mathematics, engineering, and design fields, facilitating learning and exploration, and assisting
+in quick shape generation and visualization for various applications. Key features include real-time shape generation and visualization, customization options, and export and save options.
+The program offers benefits such as improved understanding of geometric shapes, targeting students, as well as educators and professionals seeking interactive tools to illustrate mathematical
+concepts.
 3. How to run your project or program?
 To run my project, you'll need to follow these steps. First, ensure that you have installed python in your computer and use Visual Studio Code. Next, open my shape generator in VS code
 and make sure Python interpreter is selected. Then click on the "Run" button to execute the program. Once the program is running, you can interact with it by typing the name of the shape
