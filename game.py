@@ -7,8 +7,8 @@ screen.bgcolor("black") # This is for the background color
 
 # Create turtle object
 pen = turtle.Turtle() 
-pen.speed(5) 
-pen.pensize(2)
+pen.speed(5) # for the speed
+pen.pensize(2) # for the size
 
 # Shape drawer function
 def draw_shape(sides, size):
@@ -29,7 +29,7 @@ while True:
     shape = screen.textinput("Shape Input", "Enter shape (triangle, square, pentagon, hexagon or 'exit' to quit):")
 
     if shape is None or shape.lower() == "exit":
-        break
+        break  # To exit loop immediately
 
     shape = shape.lower()
     if shape in shapes:
@@ -37,7 +37,7 @@ while True:
         pen.color("blue") 
         draw_shape(shapes[shape], 100)
     else:
-        screen.textinput("Error", "Invalid shape. Press OK to retry.")
+        screen.textinput("Error", "Invalid shape. Press OK to retry.") # In case of errors in typing the desired shape
  
 # Finish
 pen.hideturtle() # To make the turtle object invisible
